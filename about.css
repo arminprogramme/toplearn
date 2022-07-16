@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRAN Sans, sans-serif;
+}
+
+.starter {
+    background-image: url(img/landing.jpg);
+    width: 100%!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#main-menu {
+    display: flex;
+    width: 100%;
+    padding: 25px 20px;
+}
+
+#main-menu img {
+    width: 60px;
+}
+
+#main-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+#main-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#main-menu .text :hover {
+    border-top: 3px solid rgb(0, 153, 255);
+}
+
+#small-menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.small-menu {
+    display: flex;
+    width: 100%;
+}
+
+#small-menu ul {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-shadow: 2px 2px 1px #ececec;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style: none;
+}
+
+#small-menu ul li a {
+    color: #222222;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#small-menu ul li a:hover {
+    color: rgb(0, 136, 255);
+}
+
+.about-title {
+    text-align: right;
+    padding-right: 60px;
+    font-size: 19px;
+}
+
+.about-content {
+    text-align: right;
+    font-size: 23px;
+    padding: 3vw;
+    margin: 3vw 15vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #cecece;
+}
+
+ul {
+    list-style: none;
+}
+
+.about-content h2 {
+    color: green;
+    padding-bottom: 20px;
+}
+
+.about-content p {
+    padding: 12px;
+    padding-bottom: 20px;
+}
+
+.about-content h5 {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.footer-1 {
+    background-color: #002b3f;
+    text-align: right;
+    color: white;
+    padding: 35px 15px;
+}
+
+.input-footer {
+    padding: 20px 70px;
+}
+
+.input-footer input {
+    width: 35vw;
+    margin: 5px;
+    padding: 10px;
+    direction: rtl;
+    border-radius: 5px;
+}
+
+.footer-1 {
+    padding: 10px;
+}
+
+.footer-1 ul {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+
+.footer-1 ul a {
+    color: white!important;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-1 ul a:hover {
+    color: rgb(75, 75, 255)!important;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: 200px;
+}
+
+.footer-1 button {
+    padding: 10px;
+    background-color: rgb(27, 203, 0);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.icon-footer {
+    padding: 20px;
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+}
+
+.icon-footer i {
+    font-size: 28px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-footer .fa-instagram:hover {
+    color: rgb(255, 1, 251);
+}
+
+.icon-footer .fa-telegram:hover {
+    color: rgb(71, 131, 252);
+}
+
+.footer-2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icon-footer .fa-instagram:hover {
+    color: rgb(255, 1, 251);
+}
+
+.icon-footer .fa-telegram:hover {
+    color: rgb(71, 131, 252);
+}
+
+.footer-2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
